@@ -13,6 +13,7 @@ const CONFIG = {
         url: 'https://encrypted.google.com',
         search: '/search?q={}',
         color: '#000',
+		quickLaunch: false,
       },
 	  {
         category: 'Social',
@@ -21,6 +22,7 @@ const CONFIG = {
         url: 'https://www.facebook.com',
         search: '/search/top/?q={}',
         color: '#4267B2',
+		quickLaunch: false,
       },
 	  {
         category: 'Social',
@@ -29,6 +31,7 @@ const CONFIG = {
         url: 'https://www.instagram.com',
         search: null,
         color: '#9d2bab',
+		quickLaunch: false,
       },
 	  {
         category: 'Social',
@@ -37,6 +40,7 @@ const CONFIG = {
         url: 'https://twitter.com',
         search: '/search?q={}',
         color: '#31a9f3',
+		quickLaunch: false,
       },
 	  {
         category: 'Social',
@@ -45,6 +49,7 @@ const CONFIG = {
         url: 'https://web.whatsapp.com/',
         search: null,
         color: '#25d366',
+		quickLaunch: true,
       },
 	  {
         category: 'Social',
@@ -53,6 +58,7 @@ const CONFIG = {
         url: 'http://web.telegram.org',
         search: null,
         color: '#5682A3',
+		quickLaunch: true,
       },
       {
         category: 'Google',
@@ -61,6 +67,7 @@ const CONFIG = {
         url: 'https://drive.google.com',
         search: '/drive/search?q={}',
         color: 'linear-gradient(135deg, #4285f4, #4259f4)',
+		quickLaunch: false,
       },
       {
         category: 'Google',
@@ -69,6 +76,7 @@ const CONFIG = {
         url: 'https://keep.google.com',
         search: '/#search/text={}',
         color: 'linear-gradient(135deg, #fca550, #fcd050)',
+		quickLaunch: false,
       },
 	  {
         category: 'Google',
@@ -77,6 +85,7 @@ const CONFIG = {
         url: 'https://youtube.com/feed/subscriptions',
         search: '/results?search_query={}',
         color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
+		quickLaunch: true,
       },
 	  {
         category: 'Google',
@@ -85,6 +94,7 @@ const CONFIG = {
         url: 'https://photos.google.com',
         search: '/search/{}',
         color: '#34a853',
+		quickLaunch: false,
       },
 	  
 	  {
@@ -94,6 +104,7 @@ const CONFIG = {
         url: 'https://www.google.com/maps',
         search: null,
         color: '#5390ee',
+		quickLaunch: false,
       },
       {
         category: 'Entertaintment',
@@ -102,6 +113,7 @@ const CONFIG = {
         url: 'https://www.reddit.com',
         search: '/search?q={}',
         color: '#cc3700',
+		quickLaunch: false,
       },
 	  {
         category: 'Entertaintment',
@@ -110,6 +122,7 @@ const CONFIG = {
         url: 'https://www1.zoechip.com/',
         search: '/search/{}',
         color: '#23b465',
+		quickLaunch: false,
       },
       {
         category: 'Entertaintment',
@@ -118,6 +131,7 @@ const CONFIG = {
         url: 'https://reddit.soccerstreams.net/home',
         search: null,
         color: '#001825',
+		quickLaunch: false,
       },
 	  {
         category: 'Download',
@@ -126,6 +140,7 @@ const CONFIG = {
         url: 'https://yts.mx/browse-movies/0/all/all/7/seeds/0/en',
         search: '/browse-movies/{}',
         color: 'linear-gradient(135deg, #2f2f2f, #373737)',
+		quickLaunch: false,
       },
       {
         category: 'Download',
@@ -134,6 +149,7 @@ const CONFIG = {
         url: 'https://thepiratebay.asia/',
         search: '/search/{}',
         color: '#644529',
+		quickLaunch: false,
       },
 	  {
         category: 'Business',
@@ -142,6 +158,7 @@ const CONFIG = {
         url: 'https://lazada.com.my',
         search: '/catalog/?q={}',
         color: '#F37021',
+		quickLaunch: false,
       },
 	  {
         category: 'Business',
@@ -150,6 +167,7 @@ const CONFIG = {
         url: 'https://lazada.com.my',
         search: '/search/?keyword={}',
         color: '#FF5620',
+		quickLaunch: false,
       },
       {
         category: 'Miscellaneous',
@@ -158,6 +176,7 @@ const CONFIG = {
         url: 'https://speed.cloudflare.com/',
         search: null,
         color: '#fbb147',
+		quickLaunch: false,
       },
   ],
 
@@ -186,7 +205,7 @@ const CONFIG = {
     },
     {
       name: 'History',
-      limit: 1
+      limit: 0
     },
     {
       name: 'DuckDuckGo',
