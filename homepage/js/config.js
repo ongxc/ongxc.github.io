@@ -133,6 +133,15 @@ const CONFIG = {
         color: '#001825',
 		quickLaunch: false,
       },
+      {
+        category: 'Entertaintment',
+        name: '4Anime',
+        key: '4a',
+        url: 'https://4anime.to',
+        search: '/?s={}',
+        color: '#a11e2d',
+		quickLaunch: false,
+      },
 	  {
         category: 'Download',
         name: 'YTS',
