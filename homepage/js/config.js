@@ -161,6 +161,15 @@ const CONFIG = {
 		quickLaunch: false,
       },
 	  {
+        category: 'Download',
+        name: 'Nyaa',
+        key: 'tpb',
+        url: 'https://nyaa.si/',
+        search: null,
+        color: '#1a1c1d',
+		quickLaunch: false,
+      },
+	  {
         category: 'Business',
         name: 'Lazada',
         key: 'laz',
