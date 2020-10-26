@@ -163,7 +163,7 @@ const CONFIG = {
 	  {
         category: 'Download',
         name: 'Nyaa',
-        key: 'tpb',
+        key: 'ny',
         url: 'https://nyaa.si/',
         search: null,
         color: '#1a1c1d',
