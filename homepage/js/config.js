@@ -106,6 +106,15 @@ const CONFIG = {
         color: '#5390ee',
 		quickLaunch: false,
       },
+	{
+        category: 'Google',
+        name: 'Finance',
+        key: 'fin',
+        url: 'https://www.google.com/finance/',
+        search: '',
+        color: '#163223',
+		quickLaunch: false,
+      },
       {
         category: 'Entertaintment',
         name: 'Reddit',
@@ -185,6 +194,15 @@ const CONFIG = {
         url: 'https://shopee.com.my/',
         search: '/search/?keyword={}',
         color: '#FF5620',
+		quickLaunch: false,
+      },
+	   {
+        category: 'Business',
+        name: 'IBKR',
+        key: 'ib',
+        url: 'https://ndcdyn.interactivebrokers.com/sso/Login?RL=1&locale=en_US',
+        search: '',
+        color: '#d11122',
 		quickLaunch: false,
       },
       {
