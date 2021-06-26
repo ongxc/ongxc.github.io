@@ -144,11 +144,11 @@ const CONFIG = {
       },
       {
         category: 'Entertaintment',
-        name: '4Anime',
-        key: '4a',
-        url: 'https://4anime.to',
-        search: '/?s={}',
-        color: '#a11e2d',
+        name: 'Animix',
+        key: 'ani',
+        url: 'https://animixplay.to',
+        search: '',
+        color: '#91b6d5',
 		quickLaunch: false,
       },
 	  {
