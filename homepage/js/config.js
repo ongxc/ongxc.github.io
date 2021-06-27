@@ -196,13 +196,22 @@ const CONFIG = {
         color: '#FF5620',
 		quickLaunch: false,
       },
-	   {
+      {
         category: 'Business',
         name: 'IBKR',
         key: 'ib',
         url: 'https://ndcdyn.interactivebrokers.com/sso/Login?RL=1&locale=en_US',
         search: '',
         color: '#d11122',
+		quickLaunch: false,
+      },
+      {
+        category: 'Business',
+        name: 'Macrotrends',
+        key: 'mt',
+        url: 'https://www.macrotrends.net',
+        search: '/?q={}',
+        color: '#09ade5',
 		quickLaunch: false,
       },
       {
