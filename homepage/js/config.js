@@ -179,6 +179,15 @@ const CONFIG = {
 		quickLaunch: false,
       },
 	  {
+        category: 'Download',
+        name: '1337x',
+        key: '1337',
+        url: 'https://1337x.to/',
+        search: null,
+        color: '#e2430b',
+		quickLaunch: false,
+      },
+	  {
         category: 'Business',
         name: 'Lazada',
         key: 'laz',
