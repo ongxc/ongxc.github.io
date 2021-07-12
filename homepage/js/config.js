@@ -181,7 +181,7 @@ const CONFIG = {
 	  {
         category: 'Download',
         name: '1337x',
-        key: '1337',
+        key: '13',
         url: 'https://1337x.to/',
         search: null,
         color: '#e2430b',
