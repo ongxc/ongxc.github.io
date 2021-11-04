@@ -151,7 +151,16 @@ const CONFIG = {
         color: '#91b6d5',
 		quickLaunch: false,
       },
-	  {
+      {
+        category: 'Entertaintment',
+        name: 'MyAnimeList',
+        key: 'mal',
+        url: 'https://myanimelist.net',
+        search: '',
+        color: '#304484',
+		quickLaunch: false,
+      },
+      {
         category: 'Download',
         name: 'YTS',
         key: 'yts',
@@ -260,7 +269,7 @@ const CONFIG = {
    */
   influencers: [{
       name: 'Commands',
-      limit: 2
+      limit: 0
     },
     {
       name: 'Default',
@@ -268,7 +277,7 @@ const CONFIG = {
     },
     {
       name: 'History',
-      limit: 0
+      limit: 3
     },
     {
       name: 'DuckDuckGo',
