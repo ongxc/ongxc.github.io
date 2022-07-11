@@ -161,6 +161,15 @@ const CONFIG = {
 		quickLaunch: false,
       },
       {
+        category: 'Entertaintment',
+        name: 'ComicK',
+        key: 'ck',
+        url: 'https://comick.fun/',
+        search: '',
+        color: '#1a212b',
+		quickLaunch: false,
+      },
+      {
         category: 'Download',
         name: 'YTS',
         key: 'yts',
