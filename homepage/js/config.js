@@ -8,9 +8,9 @@ const CONFIG = {
    */
   commands: [
      {
-        name: 'Google',
+        name: 'DuckDuckGo',
         key: '*',
-        url: 'https://encrypted.google.com',
+        url: 'https://duckduckgo.com',
         search: '/?q={}',
         color: '#000',
 		quickLaunch: false,
