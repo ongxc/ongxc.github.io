@@ -11,7 +11,7 @@ const CONFIG = {
         name: 'Google',
         key: '*',
         url: 'https://google.com',
-        search: '/?q={}',
+        search: '/search?q={}',
         color: '#000',
 		quickLaunch: false,
       },
